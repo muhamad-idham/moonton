@@ -10,7 +10,7 @@ export default function Sidebar() {
                 <div className="links flex flex-col mt-[60px] h-full gap-[50px]">
                     <div>
                         <div className="mb-4 text-sm text-gray-1">Menu</div>
-                        <a href="/" className="side-link active">
+                        <Link href={route('prototype.dashboard')} className="side-link active">
                             <svg
                                 width="24"
                                 height="24"
@@ -28,7 +28,7 @@ export default function Sidebar() {
                                 </g>
                             </svg>
                             Discover
-                        </a>
+                        </Link>
                         <a href="#!" className="side-link">
                             <svg
                                 width="24"
